@@ -1,0 +1,31 @@
+{
+  "name": "@nabylb/react-native-dev-tools",
+  "version": "0.0.1",
+  "description": "React Native development tools",
+  "main": "dev.js",
+  "bin": "dev.js",
+  "scripts": {
+    "patch-release": "npm version patch && npm publish && git push --follow-tags",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nabylb/react-native-dev-tools.git"
+  },
+  "keywords": [
+    "React Native",
+    "Development",
+    "Tools"
+  ],
+  "author": "“Nabyl Bennouri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nabylb/react-native-dev-tools/issues"
+  },
+  "homepage": "https://github.com/nabylb/react-native-dev-tools#readme",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "meow": "^6.0.0",
+    "shelljs": "^0.8.3"
+  }
+}
